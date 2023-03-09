@@ -15,8 +15,6 @@ app.use(express.static("public"));
 
 const dbUrl = "mongodb://127.0.0.1:27017/todolistDB";
 
-// const dbUrl = 'mongodb://127.0.0.1:27017/todolistDB'
-
 const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true
