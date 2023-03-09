@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-const dbUrl = "mongodb+srv://admin-aryan:aryan2305@cluster0.7hlqzss.mongodb.net/todolistDB";
+const dbUrl = "mongodb://127.0.0.1:27017/todolistDB";
 
 // const dbUrl = 'mongodb://127.0.0.1:27017/todolistDB'
 
